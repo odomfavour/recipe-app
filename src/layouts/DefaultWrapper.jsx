@@ -1,15 +1,19 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import Header from './Header'
+import Footer from './Footer'
+// import Sidebar from './Sidebar'
+import { Outlet } from 'react-router-dom'
 
-const DefaultWrapper = ({ children }) => {
+const DefaultWrapper = () => {
     return (
-        <section>
-            {/* header component */}
-            <h1 className="text-green-700">Header</h1>
-            {children}
-
-            {/* footer component */}
-        </section>
+        <>
+            <Header />
+            {/* <Sidebar> */}
+            <Outlet />
+            {/* </Sidebar> */}
+            <Footer />
+        </>
     )
 }
 

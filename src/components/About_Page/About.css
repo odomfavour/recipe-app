@@ -1,0 +1,289 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;800&display=swap');
+
+#about_container {
+    width: 100%;
+}
+#about_container .about_inner_container {
+    width: 90%;
+    margin: 0 auto;
+}
+.about_hero h2 {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 68px;
+    color: #151515;
+}
+
+.about_hero p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #353535;
+}
+
+.about_kitchen_diary, 
+.how_kitchen_diary_works {
+    background-color: #f67a24;
+}
+.about_kitchen_diary p, 
+.how_kitchen_diary_works p {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #fbfcfe;
+}
+
+
+.kitchen_diary{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #151515;
+}
+
+.about_vision h5,
+.about_mission h5 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #151515;
+}
+
+.about_vision p,
+.about_mission p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #353535;
+}
+
+.how_kitchen_diary_works_text h6{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.how_kitchen_diary_works_text p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.rating h3{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FBFCFE;
+}
+.rating p{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FBFCFE;
+}
+
+.feed_box{
+    width: 238px;
+    height: 74px;
+    background: #CD661E;
+    border-radius: 8px
+}
+
+.feed_back h5{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #151515;
+}
+
+.feed_back p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #151515;
+}
+
+.feed_box .name{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FBFCFE;
+}
+
+.feed_box .title{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FBFCFE;
+}
+
+   /* Mobile View  */
+@media (max-width: 690px) {
+.about_kitchen_diary p, 
+.how_kitchen_diary_works p {
+font-size: 12px;
+line-height: 28px;
+}
+.kitchen_diary{
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.about_vision h5,
+.about_mission h5 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;;
+}
+
+.about_vision p,
+.about_mission p {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.how_kitchen_diary_works_text p{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+.about_hero h2 {
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.about_hero p {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.rating h3{
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.rating p{
+font-size: 12px;
+line-height: 20px
+}
+
+.feed_box .name{
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.feed_back p {
+    font-size: 10px;
+    line-height: 16px;
+    }
+}
+
+/* Tab View */
+@media (min-width: 768px) {
+.about_kitchen_diary p, 
+.how_kitchen_diary_works p {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.about_hero h2 {
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.about_hero p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.about_vision p,
+.about_mission p {
+    font-size: 16px;
+    line-height: 24px;
+}
+.how_kitchen_diary_works_text p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.kitchen_diary {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.rating h3{
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.rating p{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.feed_back p {
+    font-size: 16px;
+    line-height: 24px;
+    }
+}
+
+/* Laptop View */
+@media (min-width:990px) {
+.about_kitchen_diary p, 
+.how_kitchen_diary_works p {
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.about_vision p,
+.about_mission p {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.how_kitchen_diary_works_text p{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.kitchen_diary{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.about_hero h2 {
+    font-size: 60px;
+    line-height: 68px;
+}
+
+.about_hero p {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.rating h3{
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.rating p{
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.feed_back p {
+    font-size: 20px;
+    line-height: 28px;
+    }
+}
